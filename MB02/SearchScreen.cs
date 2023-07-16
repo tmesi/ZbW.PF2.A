@@ -16,5 +16,20 @@ namespace MB02
         {
             InitializeComponent();
         }
+
+        private void BtnStartA3_Click(object sender, EventArgs e)
+        {
+            var a = new ArraySearchUI(1000000, 54);
+        }
+
+        private void BtnStartA4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnStartA5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
