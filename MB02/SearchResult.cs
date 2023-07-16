@@ -1,5 +1,4 @@
-﻿namespace MB02
-{
+﻿namespace Suchen_Solution {
     public class SearchResult {
         public int? PositionFound { get; set; }
         public long Ticks { get; set; }

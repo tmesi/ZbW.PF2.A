@@ -1,18 +1,18 @@
-﻿
-namespace MB02
-{
-    internal static class Program
-    {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
-        {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new SearchScreen());
+﻿using System;
+
+namespace Suchen_Solution {
+    static class Program {
+        static void Main(string[] args) {
+            SearchScreen();
+        }
+
+        static void SearchScreen() {
+            Console.Clear();
+            new ArraySearchUI(10000000, 54).Print();
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key for home screen!");
+            Console.ReadKey(true);
         }
     }
 

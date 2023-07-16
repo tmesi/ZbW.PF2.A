@@ -1,5 +1,4 @@
-﻿namespace MB02
-{
+﻿namespace Suchen_Solution {
     public interface IArrayDataProvider {
         int MinValue { get; }
         int AvgValue { get; }

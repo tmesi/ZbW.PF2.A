@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace MB02
-{
+namespace Suchen_Solution {
     public class SortedAndUniformProvider : IArrayDataProvider {
         public int MinValue { get; }
         public int MaxValue { get; }
