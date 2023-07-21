@@ -1,4 +1,5 @@
-﻿namespace Suchen_Solution {
+﻿namespace MB12
+{
     public class LinearSearch : ISearch {
         /// <summary>
         /// Linear Search [Time: O(n), Space: O(1)]

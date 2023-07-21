@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace Suchen_Solution {
+namespace MB12
+{
     public class BinarySearch :ISearch  {
         /// <summary>
         /// Binary Search  [Time: O(log(n)), Space: O(1)]

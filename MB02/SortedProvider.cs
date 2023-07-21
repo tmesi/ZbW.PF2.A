@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Suchen_Solution {
+namespace MB12
+{
     public class SortedProvider : IArrayDataProvider {
         public int MinValue { get; }
         public int MaxValue { get; }

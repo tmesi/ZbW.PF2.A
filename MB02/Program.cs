@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace Suchen_Solution {
+namespace MB12
+{
     static class Program {
         static void Main(string[] args) {
             SearchScreen();

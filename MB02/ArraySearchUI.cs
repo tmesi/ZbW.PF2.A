@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Suchen_Solution {
+namespace MB12 {
     public class ArraySearchUI {
 
         private readonly int _datasize;
