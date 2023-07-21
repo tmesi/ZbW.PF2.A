@@ -1,4 +1,4 @@
-﻿namespace MB04.Huffman
+﻿namespace MB14.Huffman
 {
     public class Frequency
     {

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Text;
 
-namespace MB04.MinMaxHeap {
+namespace MB14.MinMaxHeap {
     /// <summary>
     /// Hinweis: Es wurde bewusst auf eine Abstrakte Klasse "Heap" verzichtet, um die Komplexität nicht unnötig zu erhöhen.
     /// </summary>
