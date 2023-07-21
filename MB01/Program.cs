@@ -1,4 +1,4 @@
-namespace MB01
+namespace MB11
 {
     internal static class Program
     {
