@@ -1,4 +1,4 @@
-﻿namespace MB12
+﻿namespace MB15
 {
     public class LinearSearch : ISearch {
         /// <summary>

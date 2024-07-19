@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace MB12
+namespace MB15
 {
     public class SortedAndUniformProvider : IArrayDataProvider {
         public int MinValue { get; }

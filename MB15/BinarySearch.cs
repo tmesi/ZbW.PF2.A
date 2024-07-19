@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MB12
+namespace MB15
 {
     public class BinarySearch :ISearch  {
         /// <summary>

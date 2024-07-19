@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MB12
+namespace MB15
 {
-    public class UnsortedProvider : IArrayDataProvider {
+    public class SortedProvider : IArrayDataProvider {
         public int MinValue { get; }
         public int MaxValue { get; }
         public int AvgValue { get; }
@@ -13,19 +13,22 @@ namespace MB12
         public int[] Data { get; }
 
         /// <summary>
-        /// Provides a list of random integers
+        /// Provides a list of sorted but not uniformely distributed data
         /// </summary>
         /// <param name="size">Size of the list</param>
-        public UnsortedProvider(int size) {
+        public SortedProvider(int size) {
             var d = new List<int>();
-            var rnd = new Random(1);
             for (var i = 0; i < size; i++) {
-                d.Add(rnd.Next(0, size * 10));
+
+                if (i < size / 2)
+                    d.Add(i);
+                else
+                    d.Add(int.MaxValue - i);
             }
 
-            MinValue = d.Min();
-            MaxValue = d.Max();
-            AvgValue = d.OrderBy(x => x).First(x => x > (MinValue + MaxValue) / 2);
+            MinValue = d[0];
+            MaxValue = d[size - 1];
+            AvgValue = d.First(x => x > (MinValue + MaxValue) / 2);
             RandomValue = d[new Random((int)DateTime.Now.Ticks).Next(0, d.Count - 1)];
             NotFoundValue = d.Max() + 1;
             Data = d.ToArray();
