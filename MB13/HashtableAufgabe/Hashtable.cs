@@ -1,4 +1,4 @@
-﻿namespace MB10.HashtableAufgabe
+﻿namespace MB13.HashtableAufgabe
 {
     public class Hashtable : IHashtable
     {
