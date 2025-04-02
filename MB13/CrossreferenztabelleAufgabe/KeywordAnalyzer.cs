@@ -3,7 +3,9 @@
 namespace MB13.CrossreferenztabelleAufgabe
 {
 
-
+    /// <summary>
+    /// KeywordAnalyzer
+    /// </summary>
     public class KeywordAnalyzer
     {
         private Hashtable keywordTable;
